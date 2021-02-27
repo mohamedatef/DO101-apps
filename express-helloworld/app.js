@@ -2,12 +2,12 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World 3!\n');
+  res.send('Hello World 4!\n');
 });
 
 
 app.get('/EFG', function (req, res) {
-  res.send('Hello EFG World!\n');
+  res.send('Hello EFG World 2!\n');
 });
 
 app.listen(8080, function () {
